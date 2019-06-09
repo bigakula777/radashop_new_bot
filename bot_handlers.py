@@ -12,7 +12,7 @@ num_shop = 1010000
 def send_welcome(message):
     bot.send_message(message.chat.id, messages.START)
 
-
+'''
 @bot.message_handler(content_types=["text"])  # Любой текст
 def repeat_all_messages(message):
 
@@ -100,7 +100,7 @@ def repeat_all_messages(message):
     # else:
     #    bot.send_message(771112471, message.text + '    *****    @' +
     #                     message.from_user.username + '   *****   ' + str(message.chat.id))
-
+'''
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
