@@ -10,7 +10,7 @@ num_shop = 1010000
 
 @bot.message_handler(commands=['start'])  # Выполняется, когда пользователь нажимает на start
 def send_welcome(message):
-    bot.send_message(message.chat.id, messages.START)
+    bot.send_message(message.chat.id, messages.START, parse_mode='HTML')
 
 
 @bot.message_handler(content_types=["text"])  # Любой текст
