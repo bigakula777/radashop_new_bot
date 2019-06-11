@@ -19,6 +19,7 @@ def send_welcome(message):
         bot.send_message(771112471, message.text + '    *****    @' +
                          message.from_user.username + '   *****   ' + str(message.chat.id))
 
+
 @bot.message_handler(content_types=["text"])  # Любой текст
 def repeat_all_messages(message):
 
@@ -84,17 +85,15 @@ def repeat_all_messages(message):
 
     elif message.text == '/buy138':
         bot.send_message(message.chat.id, messages.BUY138, parse_mode='HTML')
-    elif message.text == '/buy141':
-        bot.send_message(message.chat.id, messages.BUY141, parse_mode='HTML')
-    elif message.text == '/buy143':
-        bot.send_message(message.chat.id, messages.BUY143, parse_mode='HTML')
+    elif message.text == '/buy144':
+        bot.send_message(message.chat.id, messages.BUY144, parse_mode='HTML')
 
     elif message.text == '/buy138_1':
         bot.send_message(message.chat.id, messages.BUY138_1 + mes, parse_mode='HTML')
-    elif message.text == '/buy141_1':
-        bot.send_message(message.chat.id, messages.BUY141_1 + mes, parse_mode='HTML')
-    elif message.text == '/buy143_1':
-        bot.send_message(message.chat.id, messages.BUY143_1 + mes, parse_mode='HTML')
+    elif message.text == '/buy144_1':
+        bot.send_message(message.chat.id, messages.BUY144_1 + mes, parse_mode='HTML')
+    elif message.text == '/buy144_2':
+        bot.send_message(message.chat.id, messages.BUY144_2 + mes, parse_mode='HTML')
 
     elif message.text == '/check':
         time.sleep(1)
