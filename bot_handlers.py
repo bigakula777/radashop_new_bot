@@ -68,6 +68,8 @@ def repeat_all_messages(message):
 
     elif message.text == '/buy90':
         bot.send_message(message.chat.id, messages.BUY90, parse_mode='HTML')
+    elif message.text == '/buy92':
+        bot.send_message(message.chat.id, messages.BUY92, parse_mode='HTML')
     elif message.text == '/buy102':
         bot.send_message(message.chat.id, messages.BUY102, parse_mode='HTML')
 
@@ -75,6 +77,8 @@ def repeat_all_messages(message):
         bot.send_message(message.chat.id, messages.BUY90_1 + mes, parse_mode='HTML')
     elif message.text == '/buy90_2':
         bot.send_message(message.chat.id, messages.BUY90_2 + mes, parse_mode='HTML')
+    elif message.text == '/buy92_1':
+        bot.send_message(message.chat.id, messages.BUY92_1 + mes, parse_mode='HTML')
     elif message.text == '/buy102_1':
         bot.send_message(message.chat.id, messages.BUY102_1 + mes, parse_mode='HTML')
 
