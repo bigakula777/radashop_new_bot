@@ -29,8 +29,8 @@ def repeat_all_messages(message):
     zak = 10000 + random.randint(0, 9999)
     mes = str(num) + messages.PAY1 + str(zak) + messages.PAY2
 
-    if message.chat.id == 414598352:
-        bot.send_message(message.chat.id, 'Вы заблокированы за частое нажатие команд', parse_mode='HTML')
+    if message.chat.id == 845474542:
+        bot.send_message(message.chat.id, 'Вы заблокированы за частое применение команд', parse_mode='HTML')
     elif message.text == '/help':
         bot.send_message(message.chat.id, messages.HELP, parse_mode='HTML')
     elif message.text == '/lastorder':
