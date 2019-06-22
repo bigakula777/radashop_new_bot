@@ -45,8 +45,8 @@ def repeat_all_messages(message):
         bot.send_message(message.chat.id, messages.BUY14, parse_mode='HTML')
     elif message.text == '/buy16':
         bot.send_message(message.chat.id, messages.BUY16, parse_mode='HTML')
-    elif message.text == '/buy43':
-        bot.send_message(message.chat.id, messages.BUY43, parse_mode='HTML')
+    # elif message.text == '/buy43':
+    #    bot.send_message(message.chat.id, messages.BUY43, parse_mode='HTML')
     elif message.text == '/buy44':
         bot.send_message(message.chat.id, messages.BUY44, parse_mode='HTML')
     elif message.text == '/buy46':
@@ -64,14 +64,14 @@ def repeat_all_messages(message):
         bot.send_message(message.chat.id, messages.BUY14_1 + mes, parse_mode='HTML')
     elif message.text == '/buy16_1':
         bot.send_message(message.chat.id, messages.BUY16_1 + mes, parse_mode='HTML')
-    elif message.text == '/buy43_1':
-        bot.send_message(message.chat.id, messages.BUY43_1 + mes, parse_mode='HTML')
-    elif message.text == '/buy43_2':
-        bot.send_message(message.chat.id, messages.BUY43_2 + mes, parse_mode='HTML')
-    elif message.text == '/buy43_3':
-        bot.send_message(message.chat.id, messages.BUY43_3 + mes, parse_mode='HTML')
-    elif message.text == '/buy43_4':
-        bot.send_message(message.chat.id, messages.BUY43_4 + mes, parse_mode='HTML')
+    # elif message.text == '/buy43_1':
+    #    bot.send_message(message.chat.id, messages.BUY43_1 + mes, parse_mode='HTML')
+    # elif message.text == '/buy43_2':
+    #    bot.send_message(message.chat.id, messages.BUY43_2 + mes, parse_mode='HTML')
+    # elif message.text == '/buy43_3':
+    #    bot.send_message(message.chat.id, messages.BUY43_3 + mes, parse_mode='HTML')
+    # elif message.text == '/buy43_4':
+    #    bot.send_message(message.chat.id, messages.BUY43_4 + mes, parse_mode='HTML')
     elif message.text == '/buy44_1':
         bot.send_message(message.chat.id, messages.BUY44_1 + mes, parse_mode='HTML')
     elif message.text == '/buy44_2':
