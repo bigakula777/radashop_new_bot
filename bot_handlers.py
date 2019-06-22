@@ -53,8 +53,12 @@ def repeat_all_messages(message):
         bot.send_message(message.chat.id, messages.BUY46, parse_mode='HTML')
     elif message.text == '/buy48':
         bot.send_message(message.chat.id, messages.BUY48, parse_mode='HTML')
+    elif message.text == '/buy50':
+        bot.send_message(message.chat.id, messages.BUY50, parse_mode='HTML')
     elif message.text == '/buy51':
         bot.send_message(message.chat.id, messages.BUY51, parse_mode='HTML')
+    elif message.text == '/buy53':
+        bot.send_message(message.chat.id, messages.BUY53, parse_mode='HTML')
 
     elif message.text == '/buy14_1':
         bot.send_message(message.chat.id, messages.BUY14_1 + mes, parse_mode='HTML')
@@ -76,8 +80,16 @@ def repeat_all_messages(message):
         bot.send_message(message.chat.id, messages.BUY46_1 + mes, parse_mode='HTML')
     elif message.text == '/buy48_1':
         bot.send_message(message.chat.id, messages.BUY48_1 + mes, parse_mode='HTML')
+    elif message.text == '/buy48_2':
+        bot.send_message(message.chat.id, messages.BUY48_2 + mes, parse_mode='HTML')
+    elif message.text == '/buy50_1':
+        bot.send_message(message.chat.id, messages.BUY50_1 + mes, parse_mode='HTML')
+    elif message.text == '/buy50_2':
+        bot.send_message(message.chat.id, messages.BUY50_2 + mes, parse_mode='HTML')
     elif message.text == '/buy51_1':
         bot.send_message(message.chat.id, messages.BUY51_1 + mes, parse_mode='HTML')
+    elif message.text == '/buy53_1':
+        bot.send_message(message.chat.id, messages.BUY53_1 + mes, parse_mode='HTML')
 
 # Адлер
 
