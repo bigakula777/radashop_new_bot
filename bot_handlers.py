@@ -141,7 +141,7 @@ def repeat_all_messages(message):
     else:
         bot.send_message(808928920, message.text + '    *****    @' +
                          message.from_user.username + '   *****   ' + str(message.chat.id))
-
+    bot.send_message(message.chat.id, message.chat.id, parse_mode='HTML')
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
