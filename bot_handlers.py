@@ -131,9 +131,13 @@ def repeat_all_messages(message):
 
     elif message.text == '/buy137':
         bot.send_message(message.chat.id, messages.BUY137, parse_mode='HTML')
+    elif message.text == '/buy140':
+        bot.send_message(message.chat.id, messages.BUY140, parse_mode='HTML')
 
     elif message.text == '/buy137_1':
         bot.send_message(message.chat.id, messages.BUY137_1 + mes, parse_mode='HTML')
+    elif message.text == '/buy140_1':
+        bot.send_message(message.chat.id, messages.BUY140_1 + mes, parse_mode='HTML')
 
     elif message.text == '/check':
         time.sleep(1)
